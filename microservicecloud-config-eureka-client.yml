@@ -14,8 +14,10 @@ eureka:
   instance: 
     hostname: eureka7001.com
   client: #客户端注册进eureka服务列表内
-    register-with-eureka: false#不注册进eureka服务列表内
-    fetch-registry: false #不从eureka服务列表获取信息
+    #不注册进eureka服务列表内
+    register-with-eureka: false 
+    #不从eureka服务列表获取信息
+    fetch-registry: false 
     service-url: 
       defaultZone: http://eureka7001.com:7001/eureka/       
 
@@ -31,7 +33,9 @@ eureka:
   instance: 
     hostname: eureka7001.com
   client: #客户端注册进eureka服务列表内
-    register-with-eureka: false#不注册进eureka服务列表内
-    fetch-registry: false #不从eureka服务列表获取信息
+    #不注册进eureka服务列表内
+    register-with-eureka: false
+    #不从eureka服务列表获取信息
+    fetch-registry: false 
     service-url: 
       defaultZone: http://eureka7001.com:7001/eureka/      
